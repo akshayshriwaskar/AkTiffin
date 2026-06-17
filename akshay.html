@@ -1,0 +1,268 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AK Tiffin Service</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:#f8f9fa;
+    color:#333;
+    line-height:1.6;
+}
+
+.hero{
+    background:linear-gradient(135deg,#ff7b00,#ffb347);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:1.2rem;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:50px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:30px;
+    color:#ff7b00;
+}
+
+.card-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+    justify-content:center;
+}
+
+.card{
+    background:white;
+    width:350px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#ff7b00;
+    margin-bottom:15px;
+}
+
+.price{
+    font-size:2rem;
+    font-weight:bold;
+    color:#28a745;
+    margin:15px 0;
+}
+
+ul{
+    padding-left:20px;
+}
+
+.contact{
+    background:white;
+    text-align:center;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact h2{
+    color:#ff7b00;
+    margin-bottom:15px;
+}
+
+.payment{
+    font-size:1.3rem;
+    font-weight:bold;
+    color:#28a745;
+    margin-top:10px;
+}
+
+.footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.highlight{
+    background:#fff3cd;
+    border-left:5px solid #ff7b00;
+    padding:15px;
+    margin-top:15px;
+    border-radius:8px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#ff7b00;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#e56d00;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:2.2rem;
+    }
+
+    .card{
+        width:100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+    <h1>🍱 AK Tiffin Service</h1>
+    <p>Fresh • Hygienic • Home-Cooked Pure Vegetarian Meals</p>
+    <a href="#contact" class="btn">Contact Now</a>
+</section>
+
+<div class="container">
+
+    <h2 class="section-title">Welcome</h2>
+
+    <div class="contact">
+        <p>
+            We are pleased to offer fresh, healthy and home-made vegetarian meals
+            prepared with care and delivered on time.
+        </p>
+
+        <div class="highlight">
+            Join our WhatsApp Group to receive the Daily Menu and Order Updates.
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>🍛 Regular Mess & Tiffin Service</h3>
+
+            <div class="price">₹70 / Meal</div>
+
+            <ul>
+                <li>Pure Vegetarian Food</li>
+                <li>Fresh Home-Cooked Meals</li>
+                <li>Regular Monthly Mess Service</li>
+                <li>Day-wise Tiffin Orders Available</li>
+                <li>Hygienic Preparation</li>
+            </ul>
+
+            <h4 style="margin-top:15px;">Order Timings</h4>
+
+            <ul>
+                <li>Orders accepted till 11:00 AM</li>
+                <li>Tiffin available by 1:00 PM</li>
+                <li>Delivery / Collection based on confirmed orders</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>🥣 Breakfast (Nashta) Service</h3>
+
+            <div class="price">₹40 / Plate</div>
+
+            <ul>
+                <li>Pohe</li>
+                <li>Idli</li>
+                <li>Appe</li>
+                <li>Freshly Prepared Daily</li>
+                <li>Advance Payment Required</li>
+            </ul>
+
+            <h4 style="margin-top:15px;">Order Timings</h4>
+
+            <ul>
+                <li>Place Order by 6:00 PM Previous Day</li>
+                <li>Cancellation till 7:00 PM</li>
+                <li>Delivery at Company Premises by 9:00 AM</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container" id="contact">
+
+    <h2 class="section-title">Contact & Payment</h2>
+
+    <div class="contact">
+
+        <h2>AK Tiffin Service</h2>
+
+        <p>
+            For Tiffin Orders, Breakfast Orders, Daily Menu Updates,
+            or WhatsApp Group Joining, please contact:
+        </p>
+
+        <div class="payment">
+            📞 +91 8806785992
+        </div>
+
+        <div class="payment">
+            💳 GPay / PhonePe: +91 8806785992
+        </div>
+
+        <div class="highlight">
+            Advance Payment Required for Breakfast Orders.<br>
+            Fresh food is prepared only against confirmed orders.
+        </div>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    <h3>AK Tiffin Service</h3>
+    <p>Fresh • Hygienic • Home-Cooked Vegetarian Meals</p>
+    <p>© 2026 AK Tiffin Service. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+```
